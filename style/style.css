@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(to right, rgb(65, 204, 214) , rgb(214, 101, 26));
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #b42929;
+}
+
+#titulo {
+    color: #FFF;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tabela {
+    border: 2px solid black;
+    margin-top: 25px;
+    width: 50vw;
+    height: 380px;
+    background-color: #0bdf86;
+
+}
+
+.valores{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valores input{
+    width: 30vw;
+    height: 60px;
+}
+
+.letra{
+    padding-left: 10px;
+}
+
+button {
+    margin-left: 155px;
+    margin-top: 12.5px;
+    width: 100px;
+    height: 50px
+}
